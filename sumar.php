@@ -11,8 +11,7 @@ function calcula(operacion){
     var operando4 = document.calc.operando4.value; 
     var operando5 = document.calc.operando5.value; 
     var result = eval(operando1 + operacion + operando2 + operacion + operando3+ operacion + operando4+ operacion + operando5); 
-    document.calc.resultado.value = result ; 
-}  
+    document.calc.resultado.value = result ; }  
 </script> 
 </head>
 <body>
